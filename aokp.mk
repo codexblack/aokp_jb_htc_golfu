@@ -8,7 +8,7 @@ $(call inherit-product, vendor/aokp/config/gsm.mk)
 DEVICE_PACKAGE_OVERLAYS += device/htc/golfu/overlay
 
 # Inherit some common aokp stuff.
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/config/common_phone.mk)
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
 # Enhanced NFC
